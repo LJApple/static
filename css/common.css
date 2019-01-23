@@ -158,12 +158,12 @@
     width: 1.05rem;
     text-align: right;
     margin-right: 0.5rem;
-    font-size: 0.14rem;
+    font-size: 0.2rem;
 }
 .footer .f-form .ff-bottom .ffb-list select, .footer .f-form .ff-bottom .ffb-list input{
     border: 0.01rem solid #ccc;
     height: 0.66rem;
-    font-size: 0.14rem;
+    font-size: 0.2rem;
     padding-left: 0.3rem;
 }
 .footer .f-form .ff-bottom .ffb-list select {
@@ -264,13 +264,22 @@
     height: 3rem;
     width: 100%;
     position: relative;
-    padding: 0 0.32rem;
 }
 .top-contain .tc-img {
     height: 3rem;
     width: 100%;
 }
 .top-contain .more {
-
+    width: 1.21rem;
+	height: 0.36rem;
+	border-radius: 0.18rem;
+    border: solid 0.01rem #ffffff;
+    color: #ffffff;
+    font-size: 0.24rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    line-height: 1;
 }
 /* 单张图片结束 */
