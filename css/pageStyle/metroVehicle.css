@@ -1,19 +1,374 @@
 .top-contain .tc-top {
     position: absolute;
     top: 0.88rem;
-    font-family: 'HYLiLiangHeiJ';
-	font-size: 0.36rem;
-	letter-spacing: 2px;
-    color: #ffffff;
     z-index: 1;
+    right: 0.32rem;
+}
+.top-contain .tc-top img{
+    width: 3.02rem;
+    height: 0.75rem;
 }
 .top-contain .tc-middle{
     position: absolute;
     font-family: 'SourceHanSansCN-Medium';
 	font-size: 0.2rem;
-	line-height: 62px;
-	color: #202020;
+    color: #202020;
+    right: 0.32rem;
+    top: 1.8rem;
+    z-index: 1;
+}
+.top-contain .tc-middle p {
+    text-align: right;
+    line-height: 1;
+}
+.top-contain .tc-middle p:first-child {
+    padding-bottom: 0.08rem;
 }
 .top-contain .tc-bottom {
     position: absolute;
+    right: 0.32rem;
+    top: 2.39rem;
 }
+/* 内容开始 */
+.content .c-text{
+    padding: 0.6rem 0 0.3rem 0;
+    box-sizing: border-box;
+}
+.content .c-text .ct-one{
+    font-size: 0.36rem;
+    color: #1654b9;
+    font-weight: bolder;
+    text-align: center;
+}
+.content .c-text .ct-two{
+    font-size: 0.2rem;
+    color: #1654b9;
+    text-align: center;
+    padding-top: 0.08rem;
+    padding-left: 0.1rem;
+}
+.content .c-list {
+    height: 2.89rem;
+    margin-bottom: 0.3rem;
+    padding: 0.3rem 0.26rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.content .c-color1 {
+    background-color: #cbf9fc;
+}
+.content .c-color2 {
+    background-color: #fee5c7;
+}
+.content .c-color3{
+    background-color: #aac6f8;
+}
+.content .c-list .cb-left img{
+   width: 3.25rem;
+   height: 2.38rem;
+   margin-right: 0.3rem;
+}
+.content .c-list .cb-right{
+    width: 3.49rem;
+    padding-top: 0.3rem;
+ }
+.content .c-list .cb-right .cbr-top{
+    font-size: 0.28rem;
+    font-weight: bolder;
+    line-height: 1;
+    text-align: center;
+ }
+ .content .c-list .cb-right .cbr-bottom{
+    font-size: 0.2rem;
+    line-height: 0.3rem;
+    padding-top: 0.15rem;
+    text-align: justify;
+    color: #666666;
+ }
+ .content .c-learn {
+     padding: 0.3rem 0.14rem 0 0.18rem;
+     box-sizing: border-box;
+     display: flex;
+     justify-content: space-between;
+     background-image: linear-gradient(0deg, 
+		#39c5ff 0%, 
+		#a1e1fc 100%), 
+	linear-gradient(
+		#4d5763, 
+		#4d5763);
+	background-blend-mode: normal, 
+        normal;
+    margin-top: 0.3rem;
+    height: 3.54rem;
+ }
+.content .c-learn .cl-left img{
+    width: 2.82rem;
+    height: 2.52rem;
+    margin-top: 0.1rem;
+}
+.content .c-learn .clr-top p:first-child {
+    font-size: 0.28rem;
+    color: #ffffff;
+    line-height: 1;
+    font-weight: bolder;
+    text-align: center;
+}
+.content .c-learn .clr-top p:last-child {
+    font-size: 0.2rem;
+    color: #ffffff;
+    line-height: 1;
+    padding-top: 0.08rem;
+    text-align: center;
+}
+.content .c-learn .clr-middle {
+    display: flex;
+    width: 4rem;
+    justify-content: space-between;
+    margin-top: 0.23rem;
+}
+.content .c-learn .clr-middle img{
+    width: 1.9rem;
+    height: 1.58rem;
+}
+.content .c-learn .clr-bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.18rem;
+}
+.content .c-learn .clr-bottom button{
+    border: 0;
+    /* width: 1.4rem; */
+	height: 0.41rem;
+    background-color: #1954b8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 0.24rem;
+}
+.content .c-select-important {
+    margin-top: 0.6rem;
+}
+.content .c-select-important .csi-title .csit-tone{
+    font-size: 0.36rem;
+    color: #1654b9;
+    line-height: 1;
+    font-weight: bolder;
+    text-align: center;
+}
+.content .c-select-important .csi-title .csit-ttwo{
+    font-size: 0.2rem;
+    color: #1654b9;
+    line-height: 1;
+    padding-top: 0.1rem;
+    text-align: center;
+}
+.content .c-select-important .csi-content {
+    padding: 0.29rem 0.15rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content .c-select-important .csic-list {
+    font-size: 0.24rem;
+    color: #ffffff;
+    width: 3.42rem;
+    height: 1.08rem;
+    margin-top: 0.24rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0.26rem 0;
+    box-sizing: border-box;
+}
+.content .c-select-important .csic-list p {
+    line-height: 1;
+    width: 100%;
+    text-align: center;
+}
+.content .c-select-important .c-color1 {
+    background-image: linear-gradient(0deg, 
+    #104777 0%, 
+    #1598bf 100%), 
+    linear-gradient(
+        #1f337b, 
+        #1f337b);
+}
+.content .c-select-important .c-color2 {
+    background-image: linear-gradient(0deg, 
+        #d75d27 0%, 
+        #eaa82a 100%), 
+    linear-gradient(
+        #4d5763, 
+        #4d5763);
+    background-blend-mode: normal, 
+        normal;
+}
+.content .c-select-important .c-color3 {
+    background-image: linear-gradient(0deg, 
+		#2295b0 0%, 
+		#49c6e0 100%), 
+	linear-gradient(
+		#1f337b, 
+		#1f337b);
+	background-blend-mode: normal, 
+		normal;
+}
+.content .c-select-important .c-color4 {
+    background-image: linear-gradient(0deg, 
+        #48299e 0%, 
+        #7656d4 100%), 
+    linear-gradient(
+        #4d5763, 
+        #4d5763);
+    background-blend-mode: normal, 
+        normal;
+}
+.content .c-select-important .csi-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.3rem;
+}
+.content .c-select-important .csi-btn .csib-button{
+    width: 1.48rem;
+	height: 0.48rem;
+    border: solid 0.01rem #999999;
+    color: #666666;
+    font-size: 0.24rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .c-employment-style {
+    margin-top: 0.59rem;
+    height: 3.82rem;
+    background-image: url(../../images/metroVehicle/7.png);
+    background-size: 100% 100%;
+}
+.content .c-employment-style .ces-content {
+    background: rgba(0, 0, 0, 0.3);
+    height: 3.82rem;
+}
+.content .c-employment-style .ces-content .ces-title {
+    padding-top: 0.32rem;
+}
+.content .c-employment-style .ces-title {
+    font-size: 0.36rem;
+    color: #ffffff;
+    font-weight: bolder;
+    line-height: 1;
+    text-align: center;
+}
+.content .c-employment-style .ces-title p:last-child {
+    font-size: 0.2rem;
+    color: #ffffff;
+    line-height: 1;
+    padding-top: 0.1rem;
+    text-align: center;
+}
+.content .c-employment-style .ces-img {
+    margin-top: 0.21rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.14rem;
+}
+.content .c-employment-style .ces-img .cesi-list{
+    width: 1.66rem;
+    height: 2.31rem;
+    position: relative;
+}
+.content .c-employment-style .ces-img .cesi-list img {
+    width: 1.66rem;
+    height: 2.31rem;
+}
+.content .c-employment-style .ces-img .cesi-list p{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(8, 8, 8, 0.3);
+    height: 0.39rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 0.2rem;
+    color: #ffffff;
+    justify-content: center;
+}
+.content .c-teacher {
+    box-sizing: border-box;
+    padding: 0 0.15rem;
+    margin: 0.6rem 0 0.4rem 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 3.21rem;
+}
+.content .ct-color1 {
+    background-color: #6e81e0;
+}
+.content .ct-color2 {
+    background-color: #448cca;
+}
+.content .ct-color3 {
+    background-color: #fac238;
+}
+.content .ct-color4 {
+    background-color: #e74c3c;
+}
+.content .c-teacher .ct-list {
+    width: 3.43rem;
+    height: 1.41rem;
+    box-shadow: 4px 6px 10px 0px 
+		rgba(23, 34, 65, 0.34);
+    border-radius: 16px;
+    display: flex;
+    padding-right: 0.2rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.content .c-teacher .ctl-left {
+    display: flex;
+    align-items: center;
+}
+.content .c-teacher .ct-list .ctl-right .ctlr-title{
+    font-size: 0.26rem;
+    font-weight: bolder;
+    color: #ffffff;
+    padding-top: 0.33rem;
+    line-height: 1;
+}
+.content .c-teacher .ct-list .ctl-right .ctlr-content{
+    font-size: 0.18rem;
+    color: #ffffff;
+    padding-top: 0.14rem;
+    line-height: 0.22rem;
+    text-align: justify;
+}
+.content .c-teacher .ct-color1 img{
+    width: 0.87rem;
+    height: 0.85rem;
+    margin-left: 0.19rem;
+    margin-right: 0.21rem;
+}
+.content .c-teacher .ct-color2 img{
+    width: 1rem;
+    height: 1rem;
+    margin: 0 0.06rem;
+}
+.content .c-teacher .ct-color3 img{
+    width: 0.95rem;
+    height: 0.85rem;
+    margin: 0 0.18rem;
+}
+.content .c-teacher .ct-color4 img{
+    width: 0.96rem;
+    height: 1.02rem;
+    margin: 0 0.08rem 0 0.1rem;
+}
+/* 内容结束 */
