@@ -346,12 +346,15 @@ var mySwiper = new Swiper ('.swiper-container', {
     }
 })     
 // 导航栏点击事件
-$('body').on('click', '.b-nav', function() {
+$('body').on('click', '.b-nav', function(e) {
     if($('.nav').css('display') === 'none') {
         $('.nav').show()
     } else {
         $('.nav').hide()
     }
+    e.stopPropagation()
 })
-
+$('body').click(function() {
+    $('.nav').hide()
+})
 // 新增逻辑功能结束

@@ -1,0 +1,19 @@
+.top-contain .tc-top {
+    position: absolute;
+    top: 0.88rem;
+    font-family: 'HYLiLiangHeiJ';
+	font-size: 0.36rem;
+	letter-spacing: 2px;
+    color: #ffffff;
+    z-index: 1;
+}
+.top-contain .tc-middle{
+    position: absolute;
+    font-family: 'SourceHanSansCN-Medium';
+	font-size: 0.2rem;
+	line-height: 62px;
+	color: #202020;
+}
+.top-contain .tc-bottom {
+    position: absolute;
+}

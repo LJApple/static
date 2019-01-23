@@ -259,3 +259,18 @@
     border-top: 0.01rem solid #ffffff;
 }
 /* nav结束 */
+/* 单张图片开始 */
+.top-contain {
+    height: 3rem;
+    width: 100%;
+    position: relative;
+    padding: 0 0.32rem;
+}
+.top-contain .tc-img {
+    height: 3rem;
+    width: 100%;
+}
+.top-contain .more {
+
+}
+/* 单张图片结束 */
