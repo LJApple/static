@@ -91,7 +91,13 @@ body {
 	height: 1px;
 	background-color: #dadada;
 }
+.content .c-class {}
 .content .c-class img{
+    height: 3.6rem;
+    width: 100%;
+}
+.cc-bg.cc-bg {
+    position: relative;
     height: 3.6rem;
     width: 100%;
 }
