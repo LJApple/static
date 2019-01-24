@@ -79,6 +79,21 @@ body {
     font-family: 'SourceHanSansCN';
     margin-top: 0.45rem;
 }
+.c-control .c-text .c-title{
+    color: #1855b8;
+    font-weight: bolder;
+    padding-left: 0.2rem;
+    border-left: 0.01rem solid #1855b8;
+    font-size: 0.36rem;
+    line-height: 1;
+}
+.c-control .c-text .c-titleEN{
+    padding-left: 0.2rem;
+    font-size: 0.18rem;
+    color: #757575;
+    padding-top: 0.14rem;
+    line-height: 1;
+}
 .c-control .cts-text {
     width: 3.42rem;
     text-align: center;
@@ -91,48 +106,277 @@ body {
 	height: 1px;
 	background-color: #dadada;
 }
-.content .c-class {}
+.content .c-class {
+    margin-top: 0.67rem;
+    position: relative;
+}
 .content .c-class img{
     height: 3.6rem;
     width: 100%;
 }
-.cc-bg.cc-bg {
-    position: relative;
+.content .c-class .cc-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
     height: 3.6rem;
     width: 100%;
+    z-index: 1;
+    background-image: linear-gradient(-90deg, 
+		rgba(24, 85, 184, 0.7) 0%, 
+		rgba(24, 85, 184, 0.5) 49%, 
+		rgba(24, 85, 184, 0.3) 100%);
+}
+.content .c-class .cc-bg .ccb-top{
+    padding-top: 0.53rem;
+    text-align: center;
+    font-size: 0.3rem;
+    line-height: 1;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.content .c-class .cc-bg .ccb-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.73rem;
+    padding: 0 0.32rem;
+    box-sizing: border-box;
+    height: 1.09rem;
+    align-items: center;
+}
+.content .c-class .cc-bg .ccb-bottom .ccbb-btn {
+    width: 2.4rem;
+	height: 0.96rem;
+    border: solid 0.02rem #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size:  0.26rem;
+}
+.content .c-class .cc-bg .ccb-bottom .ccbb-text {
+    width: 3.77rem;
+    text-align: justify;
+    color: #ffffff;
+    font-size: 0.18rem;
+    line-height: 0.3rem;
 }
 .content .c-design {
-    margin-top: 0.46rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 0 0.18rem;
     padding-bottom: 0.3rem;
+    box-sizing: border-box;
 }
 .content .c-design .cd-title {
-    width: 7.18rem;
-    height: 0.47rem;
+    margin-top: 0.46rem;
     margin-bottom: 0.52rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
-.content .c-design .cd-list {
+.content .c-design .cd-title .cdt-left .cdtl-top{
+    color: #1855b8;
+    font-weight: bolder;
+    padding-left: 0.2rem;
+    border-left: 0.01rem solid #1855b8;
+    font-size: 0.36rem;
+    line-height: 1;
+}
+.content .c-design .cd-title .cdt-left .cdtl-bottom{
+    padding-left: 0.2rem;
+    font-size: 0.18rem;
+    color: #757575;
+    padding-top: 0.14rem;
+    line-height: 1;
+}
+.content .c-design .cd-title .cdt-right {
+    font-size: 0.2rem;
+    color: #757575;
+}
+.content .c-design .cdc-list {
+    position: relative;
+    height: 3rem;
+    width: 100%;
+    margin-bottom: 0.2rem;
+}
+.content .c-design .cdc-list .cdcl-bg{
+    height: 3rem;
+    width: 100%;
+    border-radius: 0.2rem;
+}
+.content .c-design .cdc-list .cdcl-modal {
+    border-radius: 0.2rem;
+    background-image: linear-gradient(235deg, 
+    #54a0ff 0%, 
+    #2ac2ff 47%, 
+    #00e4ff 100%), 
+    linear-gradient(
+        #ffffff, 
+        #ffffff);
+    background-blend-mode: normal, 
+        normal;
+    opacity: 0.8;
+    height: 3rem;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.cd-content .cdc-list .cdcl-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 3rem;
+    padding: 0 0.1rem;
+    box-sizing: border-box;
+    z-index: 2;
+    border-radius: 0.2rem;
+}
+.cd-content .cdc-list .cdcl-content .cdclc-top{
+    text-align: center;
+    font-size: 0.26rem;
+    color: #ffffff;
+    padding: 0.35rem 0 0.26rem 0;
+}
+.cd-content .cdc-list .cdcl-content .cdclc-middle {
+    text-align: justify;
+    color: #ffffff;
+    line-height: 0.22rem;
+    font-size: 0.2rem;
+    padding-bottom: 0.36rem;
+}
+.cd-content .cdc-list .cdcl-content .cdclc-bottom {
     display: flex;
     justify-content: center;
+}
+.cd-content .cdc-list .cdcl-content .cdclc-bottom .cdclcb-btn{
+    width: 1.6rem;
+	height: 0.4rem;
+    background-color: #ffffff;
+    color: #44b9f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.2rem;
+    font-size: 0.2rem;
+    position: absolute;
+    bottom: 0.3rem;
+    left: 2.8rem;
+}
+
+.c-desc {
+    background: #ffffff;
+    padding: 0 0.18rem;
+}
+.c-desc .cd-title {
+    padding-top: 0.63rem;
+    font-size: 0.36rem;
+    font-weight: bolder;
+    color: #333333;
+}
+.c-desc .cd-title p {
+    text-align: center;
+    font-weight: bolder;
+}
+.c-desc .cd-desc {
+    font-weight: 0.2rem;
+    color: #666666;
+    line-height: 1;
+    padding-top: 0.25rem;
+    text-align: center;
+    font-size: 0.2rem;
+}
+.c-desc .cd-content {
+    padding-top: 0.38rem;
+}
+.c-desc .cd-content .cdc-title {
+    color: #1855b8;
+    text-align: center;
+    line-height: 1;
+    font-size: 0.26rem;
+}
+.c-desc .cd-content .cdc-con {
+    padding-top: 0.4rem;
+    color: #666666;
+    text-align: justify;
+    line-height: 0.26rem;
+    font-size: 0.2rem;
+}
+.c-desc .cd-img-list {
+    margin-top: 0.39rem;
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
-.content .c-design .cd-list img{
-    margin-bottom: 0.2rem;
-    height: 3rem;
-    width: 7.19rem;
+.c-desc .cd-img-list .cdil-left {
+    width: 3.48rem;
+	height: 2.3rem;
+    background-color: #818181;
+    border-radius: 0.2rem;
 }
-.c-desc img {
-    height: 10.59rem;
+.c-desc .cd-img-list .cdil-right {
+    width: 3.48rem;
+	height: 2.3rem;
+    background-color: #818181;
+    border-radius: 0.2rem;
+}
+.c-desc .cd-img-list .cdil-bottom {
+    width: 7.18rem;
+	height: 2.27rem;
+    background-color: #818181;
+    border-radius: 0.2rem;
+    margin-top: 0.15rem;
+}
+.c-learn {
+    width: 100%;
+    height: 3rem;
+    position: relative;
+    margin-top: 0.5rem;
+}
+.c-learn  .cl-bg {
+    height: 3rem;
     width: 100%;
 }
-.c-learn img {
+.c-learn .cl-content {
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 3rem;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
 }
+.c-learn .cl-content .clc-text {
+    padding-top: 0.4rem;
+}
+.c-learn .cl-content .clc-text p{
+    line-height: 0.6rem;
+    letter-spacing: 0.01rem;
+    color: #ffffff;
+    font-size: 0.32rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.c-learn .cl-content  .clc-btn {
+    width: 2.4rem;
+	height: 0.6rem;
+    border: solid 1px #ffffff;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3rem;
+    bottom: 0.4rem;
+    position: absolute;
+    font-size: 0.26rem;
+}
+
 .c-selctCour {
-    background-image: url(../../images/signalcontrol/16.png);
+    background-image: url(../../images/signalcontrol/12.png);
     height: 10.6rem;
     width: 100%;
     background-size: 100% 100%;
@@ -151,21 +395,78 @@ body {
     height: 0.03rem;
     background-color: #1855b8;
 }
-.c-selctCour .cs-title .cst-img {
-    width: 4.72rem;
-    height: 0.35rem;
+.c-selctCour .cs-title .cst-text {
+    color: #1855b8;
+    font-size: 0.36rem;
+    font-weight: bolder;
 }
-.c-selctCour .cs-list {
+.c-selctCour .cs-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.18rem;
+    flex-wrap: wrap;
+}
+.c-selctCour .cs-content .csc-list {
+   width: 3.4rem;
+   height: 4.4rem;
+   border-radius: 0.15rem;
+   background-color: #ffffff;
+   margin-bottom: 0.3rem;
+}
+.c-selctCour .cs-content .csc-list .cscl-img {
+    height: 2.51rem;
+    width: 100%;
+    border-top-left-radius: 0.15em;
+    border-top-right-radius: 0.15rem;
+}
+.c-selctCour .cs-content .csc-list .cscl-title {
+    color: #666666;
+    letter-spacing: 1px;
+    font-size: 0.26rem;
+    padding: 0.3rem 0.24rem;
+    box-sizing: border-box;
+}
+.c-selctCour .cs-content .csc-list .cscl-content {
+    color: #999999;
+    letter-spacing: 1px;
+    font-size: 0.2rem;
+    padding: 0 0.24rem;
+    line-height: 0.26rem;
+    box-sizing: border-box;
+}
+.c-adv {
+    background: #ffffff;
+    height: 2rem;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 0.16rem;
-    justify-content: space-between;
+    justify-content: center;
 }
-.c-selctCour .cs-list img {
-    height: 4.4rem;
-    width: 3.4rem;
-    margin-bottom: 0.3rem;
+.c-adv .ca-title {
+    padding-top: 0.41rem;
 }
-.c-adv img {
-    height: 2rem;
+.c-adv .ca-title  .cat-o {
+    color: #1855b8;
+    font-size: 0.3rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.c-adv .ca-title  .cat-t {
+    color: #1855b8;
+    font-size: 0.16rem;
+    font-weight: bolder;
+    padding-top: 0.06rem;
+    text-align: center;
+}
+.c-adv .ca-btn {
+    width: 1.74rem;
+    height: 0.45rem;
+    border-radius: 0.22rem;
+	background-color: #1855b8;
+    border: solid 1px #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.16rem;
+    margin-top: 0.23rem;
+    color: #ffffff;
 }
