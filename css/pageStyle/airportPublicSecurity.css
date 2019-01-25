@@ -74,7 +74,9 @@
     padding-top: 0.68rem;
     display: flex;
     flex-wrap: wrap;
+    box-sizing: border-box;
     justify-content: center;
+    background-size: 100% 100%;
 }
 .c-advantage  .ca-title .cat-one{
     letter-spacing: 1px;
@@ -130,6 +132,7 @@
 .c-customized {
     background-color: #f2f2f2;
     padding:0.69rem 0.16rem 0 0.16rem;
+    box-sizing: border-box;
 }
 .c-customized .cc-title{
     font-size: 0.36rem;
@@ -190,6 +193,7 @@
 .c-course {
     background: #ffffff;
     padding: 0.87rem 0.16rem 0.2rem 0.16rem;
+    box-sizing: border-box;
 }
 .c-course .cc-title .cct-te{
     font-size: 0.36rem;
@@ -198,6 +202,7 @@
     border-left: 1px solid #1855b8;
     line-height: 1;
     color: #1855b8;
+    box-sizing: border-box;
 }
 .c-course .cc-title .cct-teen {
     padding-top: 0.14rem;
@@ -205,6 +210,7 @@
     color: #757575;
     font-size: 0.16rem;
     padding-left: 0.18rem;
+    box-sizing: border-box;
 }
 .c-course .cc-con {
     margin-top: 0.51rem;
@@ -225,6 +231,7 @@
 .c-course .cc-con .ccc-list .cccl-right {
     width: 2.33rem;
     padding-right: 0.6rem;
+    box-sizing: border-box;
 }
 .c-course .cc-con .ccc-list .cccl-right .ccclr-title {
     padding-top: 0.38rem;
@@ -232,6 +239,7 @@
     color: #212121;
     font-size: 0.2rem;
     text-align: center;
+    box-sizing: border-box;
 }
 .c-course .cc-con .ccc-list .cccl-right .ccclr-con {
     padding-top: 0.24rem;
@@ -242,6 +250,7 @@
 }   
 .c-course .cc-con .ccc-list .cccl-right .ccclr-p {
     padding-top: 0.5rem;
+    box-sizing: border-box;
 }
 .c-show {
     background-image: url(../../images/airportPublicSecurity/13.png);
@@ -257,6 +266,7 @@
     padding-top: 0.71rem;
     text-align: center;
     line-height: 1;
+    box-sizing: border-box;
 }
 .c-show .cs-con {
     margin-top: 0.81rem;
@@ -296,6 +306,7 @@
     letter-spacing: 1px;
     padding-top: 0.09rem;
     line-height: 1;
+    box-sizing: border-box;
 }
 .c-show  .cs-btn {
     display: flex;
@@ -405,6 +416,69 @@
     position: absolute;
     left: 3.24rem;
 }
+.c-care {
+    padding: 0 0.16rem;
+    height: 9.9rem;
+    position: relative;
+    box-sizing: border-box;
+}
+.c-care .cc-con {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.c-care .cc-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2.7rem;
+    width: 100%;
+}
 .c-care .cc-content {
-    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.94rem;
+    justify-content: space-between;
+}
+.c-care .cc-content .cct-list  {
+    position: relative;
+    width: 3.51rem;
+	height: 2.4rem;
+}
+.c-care .cc-content .cct-list img{
+    width: 3.51rem;
+	height: 2.4rem;
+}
+.c-care .cc-content .cct-list .cctl-con {
+    width: 3.51rem;
+    height: 2.4rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding:  0 0.5rem 0 0.32rem;
+    box-sizing: border-box;
+}
+.c-care .cc-content .cct-list .cctl-con .cctlc-title {
+    text-align: center;
+    padding-top: 0.4rem;
+    box-sizing: border-box;
+    font-size: 0.28rem;
+    letter-spacing: 0.02rem;
+    color: #5d61ff;	
+    text-align: left;
+    line-height: 0.4rem;
+}
+.c-care .cc-content .cct-list .cctl-con  .cctlc-btn {
+    position: absolute;
+    bottom: 0.5rem;
+    width: 1.41rem;
+    height: 0.44rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0.32rem;
+    border-radius: 0.22rem;
+    color: #ffffff;
+    font-size: 0.2rem;
 }
