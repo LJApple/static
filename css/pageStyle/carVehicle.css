@@ -1,0 +1,127 @@
+
+.top-contain .tc-bg{
+    width: 2.86rem;
+    height: 2rem;
+    position: absolute;
+    top: 0.43rem;
+    right: 0.6rem;
+    z-index: 1;
+}
+.top-contain .tct-one {
+    font-size: 0.28rem;
+    color: #ffffff;
+    margin-top: 0.58rem;
+    line-height: 1;
+    position: absolute;
+    right: 1.56rem;
+    top: 0.44rem;;
+    letter-spacing: 1px;
+}
+.top-contain .tct-two {
+    position: absolute;
+    font-size: 0.32rem;
+    color: #ffffff;
+    line-height: 1;
+    color: #ffffff;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    right: 1.25rem;
+    top: 1.56rem;
+}
+.c-ques {
+    margin-top: 0.71rem;
+    padding: 0 0.16rem;
+    box-sizing: border-box;
+}
+.c-ques .cq-title{
+    color: #1855b8;
+    letter-spacing: 1px;
+    line-height: 1;
+    font-size: 0.36rem;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 0.54rem;
+
+}
+.c-ques .cq-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.c-ques .cq-content .cqc-left {
+    width: 2.57rem;
+	height: 3.98rem;
+}
+.c-ques .cq-content .cqc-right {
+    width: 4.25rem;
+    height: 4.6rem;
+    position: relative;
+}
+.c-ques .cq-content .cqc-right .cqcr-list{
+    width: 2.04rem;
+    height: 2.11rem;
+}
+.c-ques .cq-content .cqc-right .cqcr-list .cqcro-txt {
+    width: 2.04rem;
+    padding-top: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.c-ques .cq-content .cqc-right .cqcr-list img {
+    width: 2.04rem;
+    height: 2.11rem;
+}
+.c-ques .cq-content .cqc-right .cqcr-list .cqcro-txt p{
+    text-align: center;
+    line-height: 0.3rem;
+    font-size: 0.18rem;
+    width: 100%;
+}
+.cqcr-one {
+    position: absolute;
+}
+.cqcr-one .cqcro-txt{
+   color: #fac238;
+}
+.cqcr-two {
+    position: absolute;
+    right: 0;
+    top: 0.75rem;
+}
+.cqcr-two .cqcro-txt{
+    color: #e74c3c
+ }
+.cqcr-three {
+    position: absolute;
+    top: 2.49rem;
+    left: 0.58rem;
+}
+.cqcr-three .cqcro-txt{
+    color: #448cca;
+ }
+ .c-care {
+     margin-top: 1.16rem;
+ }
+ .c-care .ca-title  {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .c-care .ca-title .cat-tit {
+    color: #333333;
+    line-height: 1;
+    font-size: 0.36rem;
+    font-weight: bolder;
+    padding: 0 0. 16rem;
+    box-sizing: border-box;
+ }
+ .c-care .ca-title .cat-line  {
+    width: 2.5rem;
+    height: 0.01rem;
+	background-color: #cecece;
+ }
