@@ -1,0 +1,143 @@
+.c-banner {
+    height: 3rem;
+    position: relative;
+}
+.c-banner .cb-bg {
+    height: 3rem;
+    width: 100%;
+}
+.c-banner .cb-text {
+    position: absolute;
+    height: 1.56rem;
+    width: 3.6rem;
+    left: 0.83rem;
+    top: 0.75rem;
+    z-index: 1;
+}
+.c-look {
+    margin-top:0.64rem; 
+    padding: 0 0.16rem;
+    box-sizing: border-box;
+}
+.c-look .cl-title {
+    font-size: 0.22rem;
+    color: #333333;
+}
+.c-look .cl-title p {
+    text-align: right;
+    font-weight: bolder;
+}
+.c-look .cl-title p:first-child {
+    padding-bottom: 0.05rem;
+}
+.c-look  .cl-line {
+    margin-top: 0.43rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.c-look  .cl-line .cll-line {
+    width: 3.2rem;
+	height: 1px;
+	background-color: #e5e5e5;
+}
+.c-look  .cl-line .cll-text {
+    width: 0.16rem;
+	height: 0.14rem;
+}
+.c-look .cl-desc {
+    margin-top: 0.3rem;
+    color: #666666;
+    font-size: 0.2rem;
+    line-height: 0.28rem;
+}
+.c-look .cl-desc p {
+    text-align: justify;
+}
+.c-look .cl-desc .ckd-two {
+    text-align: center;
+}
+.c-look .cl-desc .ckd-three {
+    margin-top: 0.3rem;
+}
+.c-look .cl-img {
+    height: 2rem;
+    margin-top: 0.25rem;
+}
+.c-advantage {
+    background-image: url(../../images/airportPublicSecurity/4-1.jpg);
+    width: 100%;
+    height: auto;
+    padding: 0 0.16rem;
+    box-sizing: border-box;
+    height: 8.98rem;
+    padding-top: 0.68rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.c-advantage  .ca-title .cat-one{
+    letter-spacing: 1px;
+    color: #1855b8;
+    font-size: 0.36rem;
+    font-weight: bolder;
+    line-height: 1;
+    text-align: center;
+}
+.c-advantage  .ca-title .cat-two{
+    padding-top: 0.21rem;
+    letter-spacing: 1px;
+    color: #1855b8;
+    font-size: 0.22rem;
+    line-height: 1;
+    text-align: center;
+}
+.c-advantage  .ca-content-one {
+    margin-top: 0.4rem;
+    font-size: 0.18rem;
+    color: #666666;
+    line-height: 0.26rem;
+    width: 4.68rem;
+}
+.c-advantage .ca-img {
+    width: 4.95rem;
+    height: 2.81rem; 
+}
+.ca-bo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c-advantage  .ca-content-two {
+    font-size: 0.18rem;
+    color: #666666;
+    line-height: 0.26rem;
+    width: 4.68rem;
+}
+.c-advantage .ca-btn {
+    width: 2.08rem;
+    height: 0.48rem;
+    font-size: 0.2rem;
+    color: #1855b8;
+	border: solid 0.02rem #1855b8;  
+    margin-top: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.24rem;
+}
+.c-customized {
+    background-color: #f2f2f2;
+    padding:0.69rem 0.16rem 0 0.16rem;
+}
+.c-customized .cc-title{
+    font-size: 0.36rem;
+    color: #333333;
+}
+.c-customized  .cc-line {
+    margin-top: 0.2rem;
+    width: 0.72rem;
+	height: 0.02rem;
+	background-color: #333333;
+}
