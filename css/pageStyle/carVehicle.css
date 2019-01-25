@@ -29,11 +29,10 @@
     top: 1.56rem;
 }
 .c-ques {
-    margin-top: 0.71rem;
-    padding: 0 0.16rem;
     box-sizing: border-box;
 }
 .c-ques .cq-title{
+    margin-top: 0.73rem;
     color: #1855b8;
     letter-spacing: 1px;
     line-height: 1;
@@ -41,12 +40,14 @@
     text-align: center;
     font-weight: bolder;
     margin-bottom: 0.54rem;
-
 }
 .c-ques .cq-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 0.16rem;
+    box-sizing: border-box;
+
 }
 .c-ques .cq-content .cqc-left {
     width: 2.57rem;
@@ -125,3 +126,491 @@
     height: 0.01rem;
 	background-color: #cecece;
  }
+ .ca-t2 .cat-one {
+     color: #1855b8;
+     font-size: 0.36rem;
+     line-height: 1;
+     margin-top: 0.19rem;
+     text-align: center;
+     font-weight: bolder;
+ }
+ .ca-t2 .cat-two {
+    color: #666666;
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 1;
+    margin-top: 0.1rem;
+ }
+ .ca-bg {
+     background: url(../../images/carVehicle/6-1.jpg);
+     background-size: 100% 100%;
+     box-sizing: border-box;
+     padding: 0 0.16rem 0.7rem 0.16rem;
+ }
+ .ca-show {
+     margin-top: 0.53rem;
+     display: flex;
+     justify-content: space-between;
+ }
+ .ca-show .cas-list {
+    width: 2.88rem;
+ }
+ .ca-show .cas-list .casl-img {
+    width: 2.88rem;
+    height: 2rem;
+ }
+ .ca-show .cas-list .casl-text {
+    color: #1855b8;
+    margin-top: 0.2rem;
+    text-align: center;
+    font-size: 0.3rem;
+    letter-spacing: 0.01rem;
+ }
+ .ca-enter {
+     margin-top: 0.36rem;
+     display: flex;
+     justify-content: space-between;
+ }
+ .ca-enter .cae-left{
+    width: 3.68rem;
+    height: 1.4rem;
+}
+.ca-enter .cae-right{
+    width: 3.68rem;
+    height: 1.4rem;
+    background-color: #1855b8;
+    padding: 0 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ca-enter .cae-right .caer-txt { 
+    width: 2.24rem;
+    color: #ffffff;
+    line-height: 1;
+    height: 1.4rem;
+    padding: 0.37rem 0;
+    box-sizing: border-box;
+}
+.ca-enter .cae-right .caer-txt .caert-t1{ 
+    font-size: 0.32rem;
+} 
+.ca-enter .cae-right .caer-txt .caert-t2{ 
+    font-size: 0.2rem;
+    margin-top: 0.08rem;
+} 
+.ca-enter .cae-right .caer-img { 
+    height: 0.6rem;
+    width: 0.6rem
+} 
+.c-ques {
+    position: relative;
+}
+.c-ques .cq-bg {
+    height: 8.81rem;
+    width: 100%;
+}
+.cq-con {
+    position: absolute;
+    height: 8.81rem;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.cq-con .cqc-tit{
+    color: #ffffff;
+    font-size: 0.36rem;
+    font-weight: bolder;
+    margin-top: 0.98rem;
+    margin-bottom: 1.14rem;
+    line-height: 1;
+    text-align: center;
+}
+.cq-con  .cqc-li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.16rem;
+    box-sizing: border-box;
+}
+.cq-con  .cqc-li .cqcl-list {
+    width: 3.34rem;
+    height: 4.38rem;
+    position: relative;
+}
+.cq-con  .cqc-li .cqcll-bg{
+    width: 3.34rem;
+    height: 4.38rem;
+    border-radius: 0.15rem;
+}
+.cq-con  .cqc-li .cqcll-txt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3.34rem;
+    height: 4.38rem;
+    padding: 0.6rem 0.15rem 0 0.15rem;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+.cq-con  .cqc-li .cqcll-txt .cqcllt-one{
+    letter-spacing: 0.02rem;
+    font-size: 0.26rem;
+}
+p {
+    text-align: center;
+}
+.cq-con  .cqc-li .cqcll-txt .cqcllt-two{
+    letter-spacing: 0.02rem;
+    font-size: 0.2rem;
+    margin-top: 0.3rem;
+}
+.cq-con  .cqc-li .cqcll-txt .cqcllt-img{
+    width: 2.24rem;
+    height: 1.6rem;
+    margin-top: 0.3rem;
+    margin-left: 0.54rem;
+}
+.cqc-quest {
+    width: 7.18rem;
+    height: 2rem;
+    position: relative;
+    margin-left: 0.16rem;
+    margin-top: 1rem;
+}
+.cqc-quest .cqcq-bg {
+    width: 100%;
+    height: 2rem;
+}
+.cqc-quest .cqcq-cont {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    height: 2rem;
+    width: 100%;
+    padding-right: 0.39rem;
+    box-sizing: border-box;
+}
+.cqc-quest .cqcq-cont .cqcqc-t {
+    text-align: right;
+    color: #ffffff;
+    font-size: 0.26rem;
+}
+.cqc-quest .cqcq-cont .cqcqc-t {
+    text-align: right;
+    color: #ffffff;
+    font-size: 0.26rem;
+    margin-top: 0.46rem;
+    line-height: 1;
+    width: 100%;
+}
+.cqc-quest .cqcq-cont .cqcqc-btn {
+    width: 2.46rem;
+	height: 0.6rem;
+    border: solid 0.02rem #ffffff;
+    color: #fefefe;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.3rem;
+    box-sizing: border-box;
+    border-radius: 0.3rem;
+}
+.c-school {
+    margin-top: 1.6rem;
+    padding: 0 0.16rem;
+    box-sizing: border-box;
+}
+.c-school .cs-title .cst-one{
+    font-size:  0.36rem;
+    color: #333333;
+    font-weight: bolder;
+    line-height: 1;
+    text-align: center;
+}
+.c-school .cs-title .cst-two{
+    padding-top: 0.2rem;
+    color: #666666;
+    font-size: 0.2rem;
+    line-height: 1;
+    text-align: center;
+}
+.c-school .cs-title .cst-three{
+    color: #666666;
+    font-size: 0.2rem;
+    line-height: 1;
+    text-align: center;
+    padding-top: 0.15rem;
+}
+.c-school .cs-li {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.c-school .cs-li .csl-list{
+    position: relative;
+    width: 2.27rem;
+    height: 2.444rem;
+}
+.c-school .cs-li .csl-list img{
+    width: 2.27rem;
+    height: 2.444rem;
+}
+.c-school .cs-li .csl-list .csll-con {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.27rem;
+    height: 2.444rem;
+}
+.c-school .cs-li .csl-list .csll-con .csllc-o{
+    font-size: 0.24rem;
+    color: #ffffff;
+    line-height: 1;
+    margin-top: 0.86rem;
+}
+.c-school .cs-li .csl-list .csll-con .csllc-t{
+    font-size: 0.18rem;
+    color: #d4d4d4;
+    line-height: 1;
+    margin-top: 0.1rem;
+}
+.c-consultation {
+    margin-top: 0.58rem;
+    width: 100%;
+    height: 6rem;
+    position: relative;
+    background-image: url(../../images/carVehicle/18.png);
+    background-size: 100% 100%;
+}
+.cc-que {
+    position: relative;
+    width: 100%;
+    height: 4.39rem;
+    margin-top: 0.34rem;
+}
+.c-consultation .cc-title{
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 0.36rem;
+    line-height: 1;
+    padding-top: 0.54rem;
+    text-align: center;
+}
+.c-consultation .cc-one {
+    position: absolute;
+    left: 0.16rem;
+    top: 0;
+    width: 2.95rem;
+    height: 0.6rem;
+    color: #fafcff;
+    font-size: 0.23rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1 ;
+    background:rgba(153, 102, 51, 0.6);
+    border-radius: 0.3rem;
+}
+.c-consultation .cc-two {
+    position: absolute;
+    right: 0.38rem;;
+    top: 0.24rem;
+    width:  3.25rem;
+    height: 0.8rem;
+    color: #fafcff;
+    font-size: 0.re3m;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1 ;
+    background:rgba(255, 51, 51, 0.6);
+    border-radius: 0.4rem;
+}
+.c-consultation .cc-three {
+    position: absolute;
+    left: 1.32rem;
+    top: 1rem;
+    width: 2.35rem;
+    height: 0.6rem;
+    color: #fafcff;
+    font-size: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1 ;
+    background:rgba(51, 204, 153, 0.6);
+    border-radius: 0.3rem;
+}
+.c-consultation .cc-four {
+    position: absolute;
+    left: 4.91rem;
+    top: 1.27rem;
+    width: 2.41rem;
+    height: 0.6rem;
+    color: #fafcff;
+    font-size: 0.23rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1 ;
+    background:rgba(51, 153, 204, 0.6);
+    border-radius: 0.3rem;
+}
+.c-consultation .cc-five {
+    position: absolute;
+    left: 0.13rem;
+    top: 1.75rem;
+    width: 2.66rem;
+    height: 0.6rem;
+    color: #fafcff;
+    font-size: 0.23rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1 ;
+    background:rgba(204, 102, 51, 0.6);
+    border-radius: 0.3rem;
+}
+.c-consultation .cc-six {
+    position: absolute;
+    left: 3.19rem;
+    top: 2rem;
+    width: 3.34rem;
+    height: 0.86rem;
+    color: #fafcff;
+    font-size: 0.26rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1 ;
+    background:rgba(0, 102, 204, 0.6);
+    border-radius: 0.3rem;
+}
+.c-consultation .cc-seven {
+    position: absolute;
+    left: 0.16rem;
+    top: 3.41rem;
+    width: 3.51rem;
+    height: 0.71rem;
+    color: #fafcff;
+    font-size: 0.23rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1 ;
+    background:rgba(255, 204, 51, 0.6);
+    border-radius: 0.35rem;
+}
+.c-consultation .cc-eight {
+    position: absolute;
+    left: 4.89rem;
+    top: 3.03rem;
+    width: 2.33rem;
+    height: 0.6rem;
+    color: #fafcff;
+    font-size: 0.18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1 ;
+    background:rgba(51, 153, 51, 0.6);
+    border-radius: 0.3rem;
+}
+.c-consultation .cc-nine {
+    position: absolute;
+    left: 3.88rem;
+    top: 3.79rem;
+    width: 2.4rem;
+    height: 0.6rem;
+    color: #fafcff;
+    font-size: 0.18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1 ;
+    background:rgba(204, 51, 204, 0.6);
+    border-radius: 0.3rem;
+}
+.c-show {
+    background-image: url(../../images/airportPublicSecurity/13.png);
+    height: 7.99rem;
+    background-size: 100% 100%;
+    padding: 0 0.16rem;
+    box-sizing: border-box;
+}
+.c-show .cs-title {
+    padding-top: 0.71rem;
+}
+.c-show .cs-title p{
+    text-align: center;
+    line-height: 1;
+    font-weight: bolder;
+    color: #1855b8;
+    font-size: 0.36rem;
+}
+.c-show .cs-title p:last-child{
+    padding-top: 0.2rem;
+}
+.c-show .cs-con {
+    margin-top: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.c-show .cs-con .csc-list {
+    margin-bottom: 0.3rem;
+    width: 2.19rem;
+    height: 2.2rem;
+    border-radius: 0.15rem;
+    position: relative;
+}
+.c-show .cs-con .csc-list img {
+    width: 2.19rem;
+    height: 2.2rem;
+    border-radius: 0.15rem;
+}
+.c-show .cs-con .csc-list .cscl-text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0.5rem;
+    background: rgba(0, 0, 0, 0.5);
+}
+.c-show .cs-con .csc-list .csclt-one {
+    color: #ffffff;
+    font-size: 0.14rem;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 1;
+}
+.c-show .cs-con .csc-list .csclt-two {
+    font-size:0.09rem;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 0.09rem;
+    line-height: 1;
+    box-sizing: border-box;
+}
+.c-show  .cs-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.15rem; 
+}
+.c-show  .cs-btn .csb-text {
+    box-shadow: 0px 0.08rem 0.16rem 0px 
+        rgba(47, 99, 201, 0.4);
+    background-color: #2f63c9;
+    width: 2.31rem;
+    height: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 0.3rem;
+    font-size: 0.2rem;
+}
