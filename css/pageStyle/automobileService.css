@@ -1,0 +1,192 @@
+.top-contain .tc-bg{
+    height: 3rem;
+    width: 100%;
+}
+.c-select {
+    margin-top: 0.64rem;
+    padding: 0 0.16rem;
+    box-sizing: border-box;
+}
+.c-select .cs-title {
+    letter-spacing: 1px;
+    color: #333333;
+    font-size: 0.36rem;
+    text-align: center;
+    line-height: 1;
+}
+.c-select .cs-ge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.34rem;
+    margin-top: 0.35rem;
+}
+.c-select .cs-ge .csg-line {
+    height: 1px; 
+    background-color: #999999;
+    width: 2rem;
+}
+.c-select .cs-ge .csg-txt {
+    color: #999999;
+    letter-spacing: 1px;
+    font-size: 0.26rem;
+}
+.cs-con {
+    margin-top: 0.34rem;
+}
+.cs-con .csc-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cs-con .csc-list .cscl-left {
+    color: #1855b8;
+    font-weight: bolder;
+    font-size: 0.32rem;
+    letter-spacing: 1px;
+    padding-left: 0.49rem;
+}
+.csc-right {
+    padding-left: 0.49rem;
+    padding-right: 0.49rem;
+}
+.cs-con .csc-list .cscl-center {
+    color: #1855b8;
+    width: 3.15rem;
+    text-align: justify;
+    font-size: 0.2rem;
+    color: #666666;
+    line-height: 0.25rem;
+}
+.cs-con .csc-list .cscl-img {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 100%;
+    background: rgba(204, 204, 204, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cs-con .csc-list .cscl-img img{
+    width: 2rem;
+    height: 2rem;
+}
+.cs-banner {
+   height: 1.6rem;
+   width: 100%; 
+   position: relative;
+     margin-top: 0.89rem;
+}
+.cs-banner img {
+    height: 1.6rem;
+    width: 100%; 
+ }
+ .csb-right {
+     position: absolute;
+     right: 0;
+     top: 0;
+     height: 1.6rem;
+     width: 3.5rem;
+     background-color: #1855b8;
+     padding: 0.22rem 0.25rem;
+     color: #ffffff;
+     box-sizing: border-box;
+ }
+ .csb-right .csbr-t1 {
+    font-size: 0.26rem;
+ }
+ .csb-right .csbr-t2 {
+    font-size: 0.18rem;
+    padding-top: 0.1rem;
+ }
+ .csb-right  .csbr-btn {
+    width: 1.51rem;
+    height: 0.4rem;
+    border: solid 0.02rem #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.2rem;
+    box-sizing: border-box;
+    margin-top: 0.25rem;
+ }
+ .cs-banner2 {
+     margin-top: 0.96rem;
+     height: 3rem;
+     position: relative;
+ }
+ .cs-banner2 img{
+    width: 100%;
+    height: 3rem;
+}
+.cs-banner2 .csb2-co {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+    padding-left: 0.07rem;
+    color: #ffffff;
+    padding-top: 0.5rem;
+    box-sizing: border-box;
+}
+.csb2-co .csb2c-t1 {
+    font-size: 0.3rem;
+    font-weight: bolder;
+}
+.csb2-co .csb2c-t2 {
+    font-size: 0.2rem;
+    margin-top: 0.1rem;
+}
+.csb2-co .csb2c-t3 {
+    font-size: 0.3rem;
+    margin-top: 0.3rem;
+    font-weight: bolder;
+}
+.csb2-co .csb2c-btn {
+    width: 3.1rem;
+	height: 0.6rem;
+    border: solid 0.01rem #ffffff;
+    color: #ffffff;
+    font-size: 0.3rem;
+    line-height:  0.6rem;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+.c-edc {
+    margin-top: 0.8rem;
+    padding: 0 0.16rem;
+    box-sizing: border-box;
+    width: 100%;
+}
+.c-edc .ce-t1 {
+    font-size: 0.4rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.3rem;
+	letter-spacing: 0rem;
+    color: #575858;
+    text-align: center;
+    font-weight: bolder;
+}
+.c-edc .ce-t2 {
+    font-size: 0.3rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.3rem;
+	letter-spacing: 0rem;
+    color: #575858;
+    margin-top: 0.3rem;
+    text-align: center;
+}
+.cqc-quest .cqcq-bg {
+    height: 2rem;
+    width: 100%;
+}
+.cqc-quest .cqcq-cont{
+    position: absolute;
+    height: 2rem;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
